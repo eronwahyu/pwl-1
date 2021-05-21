@@ -16,7 +16,7 @@
   <div class="container">
     <h2 class="alert alert-primary text-center mt-3">REGISTER</h2>
   </div>
-  <form action="register.php" method="POST">
+  <form action="acc.php" method="POST">
     <div class="form-group">
       <label>Username :</label>
       <input type="text" name="username" class="form-control" placeholder="username">
@@ -61,13 +61,3 @@
 </body>
 
 </html>
-<?php
-  $username=$_POST['username'];
-  $password=$_POST['password'];
-  $email=$_POST['email'];
-  $kontak=$_POST['kontak'];
-  echo "Username : ",@$username,"<br>";
-  echo "Password : ",@$password,"<br>";
-  echo "Email : ",@$email,"<br>";
-  echo "Kontak : ",@$kontak,"<br>";
-  ?>
